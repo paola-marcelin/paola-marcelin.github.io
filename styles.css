@@ -1,0 +1,31 @@
+.logo_datacivica {
+	width:100px;
+	height:auto;
+}
+
+
+.navbar_color {
+	background-color: ##191919;
+}
+
+.header .logo {
+    width:400px;
+	height:auto;
+}
+
+.header .row .col-6{
+	background-color: #FEDF64;
+	padding-top: 75px;
+    padding-bottom: 75px;
+    color: black;
+}
+
+.b1{
+	padding-left: : 75px;
+    padding-right: : 75px;
+}
+
+.img_1 .b1{
+	width: 414px;
+	height: auto;
+}
