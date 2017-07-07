@@ -8,3 +8,9 @@ jQuery(document).ready(function () {
         }, 1250, 'easeInOutExpo');
         event.preventDefault();
 });
+
+
+    //button
+  $ { header: "button" },.click(function() {
+    console.log( "Le has dado click a un boton" );
+});  
