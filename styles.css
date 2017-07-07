@@ -150,6 +150,10 @@ footer .footer-below {
   background-color: #233140;
 }
 
-  p:hover {
-  	 display: none;
-  }
+.invisibilidad {
+    display: none;
+}
+
+.visibilidad {
+    display: block;
+}

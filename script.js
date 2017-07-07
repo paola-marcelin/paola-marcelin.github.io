@@ -1,4 +1,4 @@
-jQuery(document).ready(function () {
+$( document ).ready(function() {
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('.page-scroll a').bind('click', function(event) {
@@ -9,8 +9,22 @@ jQuery(document).ready(function () {
         event.preventDefault();
 });
 
+  
+    $( "button more" ).click(function() {
+        $( "p" ).removeClass( "invisibilidad" ).addClass( "visibilidad" );
+    });
 
-    //button
-  $ { header: "button" },.click(function() {
-    console.log( "Le has dado click a un boton" );
-});  
+    $( "button less" ).click(function() {
+        $( "p" ).removeClass( "visibilidad" ).addClass( "invisibilidad" );
+    });
+
+});
+
+
+  $( "p" ).toggle(
+  function() {
+  $( this ).removeClass( "invisibilidad" ).addClass( "visibilidad" );
+  }, function() {
+  $( this ).removeClass( "visibilidad" ).addClass( "invisibilidad" );
+  }
+  );
