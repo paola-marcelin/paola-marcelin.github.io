@@ -29,6 +29,16 @@
   width: 100%;
 }
 
+.b1{
+  padding-left: : 100%;
+  padding-right: : 100%;
+}
+
+.img-fluid .img_3 .b1 .col-6{
+  width: 150px;
+  height: 150px;
+}
+
 .b2{
 	padding-left: : 75px;
     padding-right: : 75px;
