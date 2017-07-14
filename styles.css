@@ -1,5 +1,5 @@
 .logo_datacivica {
-	width:100px;
+	width:150px;
 	height:auto;
 }
 
@@ -8,16 +8,25 @@
 	background-color: ##191919;
 }
 
-.header .logo {
-    width:400px;
+/*.header .logo {
+  width:auto;
 	height:auto;
-}
+  padding-left: 0 auto;
+  padding-right: 0 auto;
+  
+}**/
 
-.header .row .col-6{
-	background-color: #FEDF64;
-	padding-top: 75px;
-    padding-bottom: 75px;
-    color: black;
+.header {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  color: white;
+  font-family: 'Lobster', cursive;
+  text-shadow: 2px 2px 2px #aaa;
+  background-image: url("head.jpg");
+  height: 560px;
+  width: 100%;
 }
 
 .b2{
